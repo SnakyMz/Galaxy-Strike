@@ -471,7 +471,7 @@ GameObject:
   - component: {fileID: 1527718936}
   - component: {fileID: 1527718935}
   m_Layer: 0
-  m_Name: Terrain_(600.00, -100.00, 0.00)
+  m_Name: Terrain 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,7 +564,7 @@ GameObject:
   - component: {fileID: 2004434619}
   - component: {fileID: 2004434618}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: Terrain 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
