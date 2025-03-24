@@ -664,6 +664,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -5667990296782880961, guid: 4ca15cf4302d0c64d9bf695b714e8dcc, type: 2}
     value: {fileID: 1851967236}
+  - key: {fileID: -6484401320767807965, guid: 4ca15cf4302d0c64d9bf695b714e8dcc, type: 2}
+    value: {fileID: 1393535224}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1393535222
@@ -675,6 +677,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1393535223}
+  - component: {fileID: 1393535224}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -690,14 +693,36 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393535222}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.998501, z: -0, w: 0.054734092}
-  m_LocalPosition: {x: 60.752266, y: 91.6, z: 461.30945}
+  m_LocalRotation: {x: 0, y: 0.99850094, z: 0, w: 0.05473409}
+  m_LocalPosition: {x: 60.75227, y: 91.6, z: 461.3094}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1117144744}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 173.725, z: 0}
+--- !u!95 &1393535224
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393535222}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1527718934
 GameObject:
   m_ObjectHideFlags: 0
