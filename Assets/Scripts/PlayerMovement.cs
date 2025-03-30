@@ -9,6 +9,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        ProcessTranslation();
+    }
+
+    private void ProcessTranslation()
+    {
         float xOffset = movement.x * controlSpeed * Time.deltaTime;
         float yOffset = movement.y * controlSpeed * Time.deltaTime;
 
