@@ -662,6 +662,9 @@ MonoBehaviour:
   controlSpeed: 50
   clampXRange: 20
   clampYRange: 15
+  controlRollFactor: 20
+  rotationSpeed: 10
+  controlPitchFactor: 50
 --- !u!1 &1117144743
 GameObject:
   m_ObjectHideFlags: 0
