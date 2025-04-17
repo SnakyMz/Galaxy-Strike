@@ -3890,7 +3890,7 @@ ParticleSystem:
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -3996,7 +3996,7 @@ ParticleSystem:
     m_EnergyLossOnCollision:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5513,6 +5513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e7291d591e00a4ca66d06fca7d725b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  laser: {fileID: 184080492}
 --- !u!1 &1117144743
 GameObject:
   m_ObjectHideFlags: 0

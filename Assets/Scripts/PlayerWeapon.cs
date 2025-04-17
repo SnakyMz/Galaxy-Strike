@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
 {
+    [SerializeField] GameObject laser; 
+    
     bool isFiring = false;
     
     // Update is called once per frame
@@ -18,9 +20,8 @@ public class PlayerWeapon : MonoBehaviour
 
     void ProcessFiring()
     {
-        if (isFiring)
-        {
-            Debug.Log("Fire");
-        }
+        var emissionModule = laser.GetComponent<ParticleSystem>().emission;
+
+        emissionModule.enabled = isFiring;
     }
 }
