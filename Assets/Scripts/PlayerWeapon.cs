@@ -3,14 +3,20 @@ using UnityEngine;
 
 public class PlayerWeapon : MonoBehaviour
 {
-    [SerializeField] GameObject[] lasers; 
+    [SerializeField] GameObject[] lasers;
+    [SerializeField] RectTransform crosshair;
     
     bool isFiring = false;
     
-    // Update is called once per frame
+    void Start()
+    {
+        Cursor.visible = false;
+    }
+
     void Update()
     {
         ProcessFiring();
+        MoveCrosshair();
     }
 
     public void OnFire(InputValue value)
@@ -26,5 +32,10 @@ public class PlayerWeapon : MonoBehaviour
 
             emissionModule.enabled = isFiring;
         }
+    }
+
+    void MoveCrosshair()
+    {
+        crosshair.position = Input.mousePosition;
     }
 }
