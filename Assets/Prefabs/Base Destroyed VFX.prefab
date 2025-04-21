@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7749840919689022081}
   - component: {fileID: 7305454223900802556}
   m_Layer: 0
-  m_Name: Destroyed Ship VFX
+  m_Name: Base Destroyed VFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
