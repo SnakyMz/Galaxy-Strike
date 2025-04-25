@@ -1023,6 +1023,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8681713114700344443, guid: f3531111d3aa7234391e2ac6a3f40944, type: 3}
+      propertyPath: playerDestroyedVFX
+      value: 
+      objectReference: {fileID: 3006591048162542694, guid: c819c86a1b3819848801209e203f0551, type: 3}
     - target: {fileID: 8797519701502483105, guid: f3531111d3aa7234391e2ac6a3f40944, type: 3}
       propertyPath: crosshair
       value: 
