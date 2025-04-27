@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7133044944890984153}
   - component: {fileID: 3197630650193973943}
+  - component: {fileID: 6211326989828585714}
+  - component: {fileID: 360884938936344126}
   m_Layer: 0
   m_Name: Base Enemy
   m_TagString: Untagged
@@ -55,6 +57,40 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &6211326989828585714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342947939621749315}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 14, y: 13, z: 20}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &360884938936344126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342947939621749315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c52c446732ce74f917604de101c7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedVFX: {fileID: 4454967116306671783, guid: 3ea03938499c7bc4db6137f5ba9593e0, type: 3}
 --- !u!1 &8285970553409137919
 GameObject:
   m_ObjectHideFlags: 0
@@ -66,7 +102,6 @@ GameObject:
   - component: {fileID: 8347364806375109210}
   - component: {fileID: 3532316343849379764}
   - component: {fileID: 2344125008916131887}
-  - component: {fileID: 4208579042146971624}
   m_Layer: 0
   m_Name: Placeholder Cube
   m_TagString: Untagged
@@ -142,27 +177,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4208579042146971624
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8285970553409137919}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8939706103860113331
 GameObject:
   m_ObjectHideFlags: 0
