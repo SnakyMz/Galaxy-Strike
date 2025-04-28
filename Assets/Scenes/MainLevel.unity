@@ -960,6 +960,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7846030950456631138, guid: f3531111d3aa7234391e2ac6a3f40944, type: 3}
+      propertyPath: clampYRange
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 8681713114700344443, guid: f3531111d3aa7234391e2ac6a3f40944, type: 3}
       propertyPath: playerDestroyedVFX
       value: 
