@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 6800222598495477990}
+  m_Parent: {fileID: 320099836055334949}
   m_Children: []
   m_Clips:
   - m_Version: 1
@@ -568,6 +568,7 @@ MonoBehaviour:
   m_Tracks:
   - {fileID: 6800222598495477990}
   - {fileID: -7266905866795978443}
+  - {fileID: 320099836055334949}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -828,6 +829,30 @@ MonoBehaviour:
     m_DisplayName: ThreeFighters - 3
   m_Markers:
     m_Objects: []
+--- !u!114 &320099836055334949
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: VoiceLines
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: -6998575656549580176}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &1874891896555489077
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -889,7 +914,6 @@ MonoBehaviour:
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children:
-  - {fileID: -6998575656549580176}
   - {fileID: 8148249128117522538}
   m_Clips: []
   m_Markers:
