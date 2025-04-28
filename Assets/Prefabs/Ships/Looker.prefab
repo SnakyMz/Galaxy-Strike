@@ -10,7 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 342947939621749315, guid: e65eec18181e56347b8dbb4d7270a7fc, type: 3}
       propertyPath: m_Name
-      value: Enemy 2
+      value: Looker
+      objectReference: {fileID: 0}
+    - target: {fileID: 360884938936344126, guid: e65eec18181e56347b8dbb4d7270a7fc, type: 3}
+      propertyPath: hitpoints
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6211326989828585714, guid: e65eec18181e56347b8dbb4d7270a7fc, type: 3}
       propertyPath: m_Size.x
