@@ -78,6 +78,10 @@ PrefabInstance:
       propertyPath: hitpoints
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 360884938936344126, guid: e65eec18181e56347b8dbb4d7270a7fc, type: 3}
+      propertyPath: scoreValue
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 6211326989828585714, guid: e65eec18181e56347b8dbb4d7270a7fc, type: 3}
       propertyPath: m_Size.x
       value: 18.13352
@@ -104,7 +108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7133044944890984153, guid: e65eec18181e56347b8dbb4d7270a7fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7133044944890984153, guid: e65eec18181e56347b8dbb4d7270a7fc, type: 3}
       propertyPath: m_LocalPosition.y
