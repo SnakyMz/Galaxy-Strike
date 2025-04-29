@@ -701,7 +701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 17}
+  m_AnchoredPosition: {x: 0, y: 78}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &943391140
@@ -724,7 +724,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Subtitles
+  m_text: We're glad to have you here Lieutenant.  We could really use your help!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -899,11 +899,16 @@ PlayableDirector:
     value: {fileID: 1801899867}
   - key: {fileID: 8148249128117522538, guid: 4ca15cf4302d0c64d9bf695b714e8dcc, type: 2}
     value: {fileID: 1851967236}
+  - key: {fileID: 9059973011516994010, guid: 4ca15cf4302d0c64d9bf695b714e8dcc, type: 2}
+    value: {fileID: 1452577839}
   m_ExposedReferences:
     m_References:
     - e738a0d37838c8946bcf860fa8a01811: {fileID: 1389718143}
+    - 9ac884a324560584395e1013c5680c79: {fileID: 943391138}
     - e4e72b312398828419a75b51ae29de9a: {fileID: 1389718143}
+    - db75a35f97445df45833c0030754ab88: {fileID: 943391138}
     - 5b69950dd0706224bbf11173f52822d9: {fileID: 433129732}
+    - d62196208a1611b41805fad0f7ad5bef: {fileID: 943391138}
     - a9de01d7de4b7544eb7b0e60fd3ba7a9: {fileID: 639689386}
 --- !u!1 &1312746336
 GameObject:
@@ -957,6 +962,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1452577837}
+  - component: {fileID: 1452577838}
+  - component: {fileID: 1452577839}
   m_Layer: 0
   m_Name: Dialogue
   m_TagString: Untagged
@@ -979,6 +986,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1527578518}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1452577838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452577836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e84f91aa987f2a45abccf3bf68f8553, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - We're glad to have you here lieutenant.  We could really use your help!
+  - Like shooting fish in a barrel!
+  - It's a trap!  Get out of there.
+  - Crikey!  Looks like you could use a hand.
+  - Never thought I'd see your face around here general...
+  - Righteo let's finish this once and for all.
+  - Struth!  Looks like the galaxy just got a little more safe.
+  - Yeeeehaw!!  You did it!
+  dialogueText: {fileID: 943391140}
+--- !u!114 &1452577839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452577836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 4d7d6707f6b45214892ced50a6a8bd61, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1452577838}
+          m_TargetAssemblyTypeName: DialogueLines, Assembly-CSharp
+          m_MethodName: NextDialogue
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &1517924738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 691915153951396581, guid: 7d7866b78e3e4624a89f8ebcd477d13a, type: 3}
