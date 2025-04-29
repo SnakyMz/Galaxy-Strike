@@ -664,7 +664,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &648002370
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1686,8 +1686,11 @@ PlayableDirector:
     m_References:
     - e738a0d37838c8946bcf860fa8a01811: {fileID: 1389718143}
     - 9ac884a324560584395e1013c5680c79: {fileID: 943391138}
+    - 89db72025b638d64d949600de4cbbd96: {fileID: 1500848972}
+    - 5b50ca9779d636d40a52dc79c1024cef: {fileID: 1500848972}
     - e4e72b312398828419a75b51ae29de9a: {fileID: 1389718143}
     - db75a35f97445df45833c0030754ab88: {fileID: 943391138}
+    - e671ac67c4197e44a827c4909e1c763f: {fileID: 1500848972}
     - 5b69950dd0706224bbf11173f52822d9: {fileID: 433129732}
     - d62196208a1611b41805fad0f7ad5bef: {fileID: 943391138}
     - a9de01d7de4b7544eb7b0e60fd3ba7a9: {fileID: 639689386}
@@ -1836,7 +1839,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1500848973
 RectTransform:
   m_ObjectHideFlags: 0
