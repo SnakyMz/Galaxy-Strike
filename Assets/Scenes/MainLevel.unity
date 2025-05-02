@@ -2170,6 +2170,7 @@ PlayableDirector:
     value: {fileID: 1543572791}
   m_ExposedReferences:
     m_References:
+    - ec6fef1899a2bd14da6c1e4526265065: {fileID: 1543572788}
     - e738a0d37838c8946bcf860fa8a01811: {fileID: 1389718143}
     - 9ac884a324560584395e1013c5680c79: {fileID: 943391138}
     - c3357fd6ddc670f4e869972488cf7fde: {fileID: 943391138}
@@ -2758,6 +2759,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1543572788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8045085806626317951, guid: 7d7866b78e3e4624a89f8ebcd477d13a, type: 3}
+  m_PrefabInstance: {fileID: 2065835800}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &1543572791 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5118274582441260683, guid: 7d7866b78e3e4624a89f8ebcd477d13a, type: 3}
@@ -3297,6 +3303,10 @@ PrefabInstance:
       propertyPath: hitpoints
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 7954932883564673538, guid: 7d7866b78e3e4624a89f8ebcd477d13a, type: 3}
+      propertyPath: destroyedVFX
+      value: 
+      objectReference: {fileID: 4454967116306671783, guid: 49c5d8843605a6a44bcdee7b32b2e39c, type: 3}
     - target: {fileID: 8045085806626317951, guid: 7d7866b78e3e4624a89f8ebcd477d13a, type: 3}
       propertyPath: m_Name
       value: Looker
