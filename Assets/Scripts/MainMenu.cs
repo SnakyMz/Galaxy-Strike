@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         Time.timeScale = 1f;
+        gameObject.SetActive(false);
     }
 
     public void QuitGame()
